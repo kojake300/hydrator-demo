@@ -1,0 +1,7 @@
+{
+  "repoURL": "https://github.com/kojake300/hydrator-demo",
+  "drySha": "6ad2492607471d5eb0fd4a985c9eb00d85795a11",
+  "commands": [
+    "helm template . --name-template gb --namespace default --include-crds"
+  ]
+}

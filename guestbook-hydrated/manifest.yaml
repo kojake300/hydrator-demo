@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gb
+  template:
+    metadata:
+      labels:
+        app: gb
+    spec:
+      containers:
+        - image: gcr.io/google-samples/gb-frontend:v5
+          name: frontend
+          ports:
+            - containerPort: 80
