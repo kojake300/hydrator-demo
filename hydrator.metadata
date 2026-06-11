@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/kojake300/hydrator-demo",
-  "drySha": "13e735aa60fac2085a14ddb17dd692e4596a7963",
+  "drySha": "21f7c38679fe4f13607ead41c519997dbafcf7a5",
   "author": "Yuki Iwasaki <yuki.iwasaki@3-shake.com>",
-  "date": "2026-06-11T03:10:31Z",
-  "subject": "feat: scale replicas to 3"
+  "date": "2026-06-11T03:13:53Z",
+  "subject": "feat: 5 replicas (promote next)"
 }
