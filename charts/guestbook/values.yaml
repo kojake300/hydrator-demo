@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 3
 image:
   repository: gcr.io/google-samples/gb-frontend
   tag: v5
